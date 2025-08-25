@@ -143,6 +143,6 @@ with st.form(key="order_form", clear_on_submit=True):
 st.markdown("---")
 st.header("รายการออเดอร์ทั้งหมด")
 
-if not orders_df.empty:
-    display_df = orders_df.copy()
-    display_df['รูปภาพ'] = display_df['ไฟล์รูปภาพ'].apply(lambda)
+#if not orders_df.empty:
+ #   display_df = orders_df.copy()
+  #  display_df['รูปภาพ'] = display_df['ไฟล์รูปภาพ'].apply(lambda)
